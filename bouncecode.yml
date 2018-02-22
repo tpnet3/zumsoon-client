@@ -11,7 +11,7 @@ information:
 project:
     active:
         - client.py
-    cmd:
+    exec:
         - bouncecode open http://localhost:8000/
     run:
         - bouncecode open http://localhost:8000/ -p 8000 & python3 client.py
