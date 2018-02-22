@@ -5,13 +5,14 @@ install:
     - apt-get install -y python3-pip
     - pip3 install Flask flask_oauthlib
 
+cmd:
+    - bouncecode open http://localhost:8000/
+
 information:
     title: zumsoon-client
 
 project:
     active:
         - client.py
-    exec:
-        - bouncecode open http://localhost:8000/
     run:
         - bouncecode open http://localhost:8000/ -p 8000 & python3 client.py
