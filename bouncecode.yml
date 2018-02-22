@@ -12,4 +12,4 @@ project:
     active:
         - client.py
     run:
-        - python3 client.pt
+        - python3 client.py
