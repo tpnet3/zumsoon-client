@@ -4,3 +4,12 @@ install:
     - apt-get install python3-pip
     - pip3 install Flask
     - pip3 install flask_oauthlib
+
+information:
+    title: zumsoon-client
+
+project:
+    active:
+        - client.py
+    run:
+        - python3 client.pt
