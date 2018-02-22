@@ -12,4 +12,4 @@ project:
     active:
         - client.py
     run:
-        - python3 client.py && bouncecode open http://localhost:8000/
+        - bouncecode open http://localhost:8000/ && python3 client.py
